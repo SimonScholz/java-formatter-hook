@@ -1,0 +1,23 @@
+{
+  "name": "java-formatter-hook",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ClientProject",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "husky": "0.14.3",
+    "lint-staged": "7.1.3"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.java": [
+        "./formatter.sh",
+        "git add"
+      ]
+    }
+  }
+}

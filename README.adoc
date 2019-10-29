@@ -1,0 +1,6 @@
+== Formatting Java Code Automatically
+
+This repo is based on this article: http://www.mopri.de/2018/format-projects-java-code-git-hooks-finally-rid-annoying-ide-specifics/
+
+Struggling with formatting issues when reviewing pullrequests can be a pain.
+Having a commit hook, which is capable to do this automatically can help to avoid this pain.
