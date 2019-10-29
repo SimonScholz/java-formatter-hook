@@ -9,4 +9,4 @@ function join_by {
 PROJECT_DIR="$(pwd)"
 FILES=$(join_by "," "$@")
 
-./mvnw spotless:apply -f $PROJECT_DIR/pom.xml -Dspotless.include=${FILES//$PROJECT_DIR/}
+mvn spotless:apply -f $PROJECT_DIR/pom.xml -Dspotless.include=${FILES//$PROJECT_DIR/}
