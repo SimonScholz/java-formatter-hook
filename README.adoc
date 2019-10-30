@@ -10,7 +10,7 @@ Especially nowadays where members of the same teams use diffrent IDEs with diffe
 * https://github.com/eirslett/frontend-maven-plugin (install npm dependencies -> husky and lint-staged)
 * https://github.com/typicode/husky
 * https://github.com/okonet/lint-staged
-* https://github.com/diffplug/spotless/
+* https://github.com/jhipster/prettier-java
 
 == How to use
 
@@ -20,24 +20,7 @@ Especially nowadays where members of the same teams use diffrent IDEs with diffe
 * Do a `git add .` and `git commit -m "Testing husky commit hook"`
 * Enjoy automatically formatted files 😊
 
-The _simons-formatter-config.xml_ file, which is used by spotless, has been exported from the Eclipse IDE.
-
-image::./img/eclipse-formatter.png[eclipse-ide-formatter-preferences]
-
 == Possible issues
-
-=== Windows
-
-* The _formatter.sh_ file must have unix line endings (Can be swiched by using Notepad++)
-
-=== Ecipse EGit on Windows
-
-To properly run the _formatter.sh_ script EGit needs cygwin (https://cygwin.com/install.html) to be installed.
-And the _bin_ folder of the cygwin installation also has to be added to the path, e.g., _C:\cygwin64\bin_.
-
-Also see https://www.eclipse.org/forums/index.php/t/1067404/
-
-=== General issues
 
 Commiting takes a little longer due to running the spotless maven goal, but IHMO it is worth it.
 
