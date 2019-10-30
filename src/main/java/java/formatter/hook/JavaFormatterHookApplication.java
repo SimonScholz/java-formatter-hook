@@ -8,17 +8,18 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class JavaFormatterHookApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(JavaFormatterHookApplication.class, args);
-	}
-	
-	@Bean
-	public CommandLineRunner runner() {
-		return (String[] args) -> {
-			System.out.println("Hello");
-			
-										System.out.println("h");
-		};
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(JavaFormatterHookApplication.class, args);
+    }
+
+    @Bean
+    public CommandLineRunner runner() {
+        return (String[] args) -> {
+            System.out.println("Hello");
+
+            System.out.println("h");
+            // haha
+        };
+    }
 
 }

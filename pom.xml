@@ -95,15 +95,16 @@
 				<version>1.25.1</version>
 				<configuration>
 					<java>
-						<excludes>
-							<!-- excluding some auto generated files -->
-							<!-- <exclude>com/client/something/*.java</exclude> -->
-						</excludes>
-						<includes>
-							<include>${spotless.include}</include>
-						</includes>
+<!-- 						<excludes> -->
+<!-- 							excluding some auto generated files -->
+<!-- 							<exclude>com/client/something/*.java</exclude> -->
+<!-- 						</excludes> -->
+<!-- 						<includes> -->
+<!-- 							<include>${spotless.include}</include> -->
+<!-- 						</includes> -->
 						<eclipse>
-							<file>${basedir}/eclipse-formatter-config.xml</file>
+							<file>${basedir}/simons-formatter-config.xml</file>
+							<version>4.12.0</version>
 						</eclipse>
 						<encoding>UTF-8</encoding>
 						<removeUnusedImports />
