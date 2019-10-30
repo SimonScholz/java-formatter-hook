@@ -4,3 +4,16 @@ This repo is based on this article: http://www.mopri.de/2018/format-projects-jav
 
 Struggling with formatting issues when reviewing pullrequests can be a pain.
 Having a commit hook, which is capable to do this automatically can help to avoid this pain.
+
+== Possible issues
+
+=== Windows
+
+* The _formatter.sh_ file should have unix line endings (Can be swiched by using Notepad++)
+
+=== Ecipse EGit on Windows
+
+To properly run the _formatter.sh_ script EGit needs cygwin (https://cygwin.com/install.html) to be installed.
+And the _bin_ folder of the cygwin installation also has to be added to the path, e.g., _C:\cygwin64\bin_.
+
+Also see https://www.eclipse.org/forums/index.php/t/1067404/
