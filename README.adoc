@@ -47,6 +47,8 @@ For JavaScript/TypeScript projects it has become the default to make use of husk
 
 For Java a Java Prettier project (https://github.com/jhipster/prettier-java) is under active development, which might be a nice alternative for running maven with spotless.
 
+See prettier branch of this repo to see this working: https://github.com/SimonScholz/java-formatter-hook/tree/prettier
+
 == Contributing
 
 Please feel free to open an issue or give feedback.
