@@ -37,6 +37,16 @@ And the _bin_ folder of the cygwin installation also has to be added to the path
 
 Also see https://www.eclipse.org/forums/index.php/t/1067404/
 
+=== General issues
+
+Commiting takes a little longer due to running the spotless maven goal, but IHMO it is worth it.
+
+== Future tasks
+
+For JavaScript/TypeScript projects it has become the default to make use of husky in conjunction with prettier.
+
+For Java a Java Prettier project (https://github.com/jhipster/prettier-java) is under active development, which might be a nice alternative for running maven with spotless.
+
 == Contributing
 
 Please feel free to open an issue or give feedback.
