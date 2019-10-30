@@ -7,7 +7,9 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "husky": "3.0.9",
-    "lint-staged": "9.4.2"
+    "lint-staged": "9.4.2",
+    "prettier": "^1.18.2",
+    "prettier-plugin-java": "^0.4.0"
   },
   "husky": {
     "hooks": {
@@ -15,8 +17,8 @@
     }
   },
   "lint-staged": {
-    "*.java": [
-      "./formatter.sh",
+    "*.{md,java}": [
+      "prettier --write",
       "git add"
     ]
   }
