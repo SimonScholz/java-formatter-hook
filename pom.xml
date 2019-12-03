@@ -115,6 +115,7 @@
 				<groupId>com.github.eirslett</groupId>
 				<artifactId>frontend-maven-plugin</artifactId>
 				<version>1.8.0</version>
+                <inherited>false</inherited>
 				<executions>
 					<execution>
 						<id>install node and npm</id>
