@@ -105,6 +105,10 @@
 						<encoding>UTF-8</encoding>
 						<removeUnusedImports />
 					</java>
+                    <formats>
+                        <trimTrailingWhitespace />
+                        <endWithNewline />
+                    </formats>
 				</configuration>
 			</plugin>
 			<plugin>
