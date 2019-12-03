@@ -99,7 +99,7 @@
                             <include>${spotless.include}</include>
                         </includes>
 						<eclipse>
-							<file>${basedir}/simons-formatter-config.xml</file>
+							<file>${maven.multiModuleProjectDirectory}/simons-formatter-config.xml</file>
 							<version>4.12.0</version>
 						</eclipse>
 						<encoding>UTF-8</encoding>
