@@ -95,13 +95,9 @@
 				<version>1.25.1</version>
 				<configuration>
 					<java>
-						<!-- <excludes> -->
-						<!-- excluding some auto generated files -->
-						<!-- <exclude>com/client/something/*.java</exclude> -->
-						<!-- </excludes> -->
-						<!-- <includes> -->
-						<!-- <include>${spotless.include}</include> -->
-						<!-- </includes> -->
+                        <includes>
+                            <include>${spotless.include}</include>
+                        </includes>
 						<eclipse>
 							<file>${basedir}/simons-formatter-config.xml</file>
 							<version>4.12.0</version>
