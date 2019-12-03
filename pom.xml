@@ -127,6 +127,7 @@
 				</executions>
 				<configuration>
 					<nodeVersion>v10.12.0</nodeVersion>
+                    <installDirectory>${maven.multiModuleProjectDirectory}</installDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
